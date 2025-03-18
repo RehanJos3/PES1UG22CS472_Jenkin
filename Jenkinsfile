@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './hello_exec'
+                    sh './non_existing_exec'
                 }
             }
         }
